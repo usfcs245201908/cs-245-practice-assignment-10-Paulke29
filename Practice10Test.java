@@ -51,7 +51,6 @@ public class Practice10Test {
 				if (n == 1) contains1 = true;
 				if (n == 2) contains2 = true;
 			}
-		
 			return contains1 && contains2 && items == 2;
 		} catch (Exception e) {
 			return false;
